@@ -1,0 +1,98 @@
+
+используйте «git checkout - <file> ...», чтобы отменить изменения в рабочем каталоге)
+(используйте «git add <file> ...», чтобы обновить то, что будет сделано)
+
+git clone https://github.com/papazhora/javaTestNew.git  скачивает проект из githab
+git status
+git add <file>
+git commit -m "commit..."
+git push отправить
+git pull скачать 
+
+
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+2043/5000
+использование: git [--version] [--help] [-C <путь>] [-c <имя> = <значение>]
+           [--exec-path [= <путь>]] [--html-path] [-man-path] [-info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir = <путь>] [--work-tree = <путь>] [--namespace = <имя>]
+           <команда> [<args>]
+
+Это общие команды Git, используемые в различных ситуациях:
+
+запустите рабочую область (см. также: учебник по git help)
+   clone Клонировать репозиторий в новый каталог
+   init Создать пустой репозиторий Git или повторно инициализировать существующий
+
+работайте над текущими изменениями (см. также: git help daily)
+   Добавить Добавить содержимое файла в индекс
+   mv Переместить или переименовать файл, каталог или символическую ссылку
+   сброс Сброс текущего HEAD в указанное состояние
+   rm Удалить файлы из рабочего дерева и из индекса
+
+изучите историю и состояние (см. также: git help revisions)
+   bisect Используйте бинарный поиск, чтобы найти фиксацию, введшую ошибку
+   grep Печатать строки, соответствующие шаблону
+   log Показать журналы фиксации
+   show Показать различные типы объектов
+   status Показывать статус рабочего дерева
+
+расти, маркировать и настраивать свою общую историю
+   ветвь Список, создание или удаление ветвей
+   checkout Переключение ветвей или восстановление рабочих файлов дерева
+   commit Запись изменений в репозиторий
+   diff Показать изменения между коммитами, фиксацией и рабочим деревом и т. д.
+   merge Присоединяйтесь к двум или более историям разработки вместе
+   rebase Reapply фиксируется поверх другого базового наконечника
+   tag Создайте, перечислите, удалите или проверьте объект тега, подписанный с GPG
+
+сотрудничать (см. также: рабочие процессы git help)
+   fetch Загрузка объектов и ссылок из другого репозитория
+   pull Извлечь и интегрировать с другим репозиторием или локальной ветвью
+   push Обновить удаленные ссылки вместе со связанными объектами
+
+«git help -a» и «git help -g» доступны доступные подкоманды и некоторые
+концептуальные руководства. См. 'Git help <command>' или 'git help <concept>'
+для чтения о конкретной подкоманде или концепции.

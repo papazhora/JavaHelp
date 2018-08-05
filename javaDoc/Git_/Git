@@ -1,0 +1,15 @@
+git
+
+git clone http://……
+
+git add index.ntml
+git add *.java
+
+git commit -m “first commit”
+
+git push origin master
+
+papazhora
+27-Papa
+
+4156464@gmail.com

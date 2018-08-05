@@ -1,0 +1,9 @@
+Исправление ошибки тайм зона ssl
+--------------------------------
+"jdbc:mysql://localhost:3306/dbname"+
+                    "?verifyServerCertificate=false"+
+                    "&useSSL=false"+
+                    "&requireSSL=false"+
+                    "&useLegacyDatetimeCode=false"+
+                    "&amp"+
+                    "&serverTimezone=UTC";

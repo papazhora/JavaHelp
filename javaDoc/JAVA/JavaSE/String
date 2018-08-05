@@ -1,0 +1,9 @@
+BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+
+String numberStr = bufferedReader.readLine(); //получаем строку
+
+int numberInt = Integer.parseInt(numberStr); // получаем число
+
+
+
+Integer.toString(numberInt).length() // конвкртируем число в строку и узнаем длинну

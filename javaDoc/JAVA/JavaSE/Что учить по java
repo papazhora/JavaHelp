@@ -1,0 +1,19 @@
+
+    Понятие JVM. Типы данных
+    Синтаксис языка. Классы. Объекты. Условия. Циклы. Массивы
+    Наследование. Инкапсуляция. Полиморфизм
+    Коллекции. List, Set, Map, Tree
+    Инструменты сборки. Хранение кода. Maven, Git
+    Базовые понятия клиент-серверных приложений. Протоколы передачи
+    Обработка http-запросов в Java. Servlets. JSP
+    Основы HTML, CSS, JS
+    Реализация MVC через Servlets. JSP
+    Работа с базой данных. JDBC
+    Базовый синтаксис SQL
+    Использование POJO в работе с базами данных. ORM
+    Hibernate, Mapping
+    Hibernate, CRUD
+    HQL
+    Spring IoC
+    Spring Template + Hibernate
+    Spring MVC

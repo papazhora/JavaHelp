@@ -1,0 +1,3 @@
+GLASSFISH_HOME=/usr/local/opt/glassfish/libexec
+
+/usr/local/opt/glassfish/libexec/glassfish/bin/asadmin start-domain domain1

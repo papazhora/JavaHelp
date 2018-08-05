@@ -1,0 +1,17 @@
+while (true)
+{
+    String s = buffer.readLine(); //Программа будет вводить строки
+                                    с клавиатуры, пока не будет введена
+                                    строка «exit».
+    if (s.equals("exit"))
+        break;
+}
+
+
+boolean isExit = false;
+while (!isExit)
+{
+    String s = buffer.readLine();
+    isExit = s.equals("exit");
+}
+

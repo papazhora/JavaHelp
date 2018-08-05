@@ -1,0 +1,32 @@
+import java.sql.Connection;
+import java.sql.Driver;
+import java.sql.SQLException;
+
+public class UtilH2 {
+
+    private static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String DB_URL = "jdbc:mysql://mysql-aws.cj0vmandb5x4.us-east-2.rds.amazonaws.com:3306/mysqlaws";
+    private static final String DB_USERNAME = "mysqlaws";
+    private static final String DB_PASSWORD = "27272727-Papa";
+
+    public Connection getConnection() throws SQLException {
+        Connection connection = null;
+        Driver driver = new com.mysql.cj.jdbc.Driver();
+        return connection;
+
+    }
+}
+
+
+public class Domain {
+
+    public static void main(String[] args) throws Exception {
+        UtilH2 util = new UtilH2();
+        util.getConnection();
+
+
+
+
+
+    }
+}

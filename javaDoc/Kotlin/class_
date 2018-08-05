@@ -1,0 +1,10 @@
+fun main(args: Array<String>) {
+
+    val userKotlin = UserKotlin("gggg@mail.com")
+    println(userKotlin.email)
+
+    val userKotlin1 =UserKotlin("fff@mail.com")
+    println(userKotlin1.email)
+}
+
+class UserJava(val email: String)

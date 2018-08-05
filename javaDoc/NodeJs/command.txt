@@ -1,0 +1,36 @@
+npm install -g 
+ncu -a 
+ncu -u     //to upgrade package.json
+remove
+git
+
+npm i  // package.json
+-----------------------------
+node.js 
+npm i gulp -g
+npm init  //
+-------------------------
+npm i gulp --save-dev
+npm i gulp-sass --save-dev
+npm i browser sync --save-dev
+npm i -g bower //
+bower i jquery magnific-popup
+npm i gulp-concat gulp-uglifyjs --save-dev
+npm i gulp-cssnano gulp-rename --save-dev //
+npm install gulp-rsync --save-dev
+npm i --save-dev gulp-imagemin imagemin-pngquant
+npm i gulp-cache --save-dev
+npm i --save-dev gulp-autoprefixer
+npm i del --save-dev
+npm i --save-dev gulp-clean-css
+----------------------------------------
+bower i css-hamburgers
+bower i equalHeights
+bower i fotorama
+bower i mmenu
+bower i owl.carousel
+bower i selectize
+
+
+
+

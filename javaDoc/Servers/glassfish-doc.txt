@@ -1,0 +1,146 @@
+Переводчик
+Отключить моментальный перевод
+2645/5000
+Благодарим вас за загрузку GlassFish Server с открытым исходным кодом версии 5.0!
+
+Вот несколько коротких шагов, чтобы вы начали ...
+
+
+0. Предварительное условие
+===============
+
+GlassFish 5.0 требует Oracle JDK 8 Update 144.
+Проверьте http://www.oracle.com/technetwork/java/javase/downloads/index.html, чтобы загрузить JDK.
+
+
+1. Установка GlassFish
+=======================
+
+Установка GlassFish - это вопрос распаковки архива GlassFish в нужном каталоге. Поскольку вы читаете это, вы, вероятно, уже распаковали GlassFish. Если нет, просто введите следующую команду в каталог, где вы хотите установить GlassFish: jar xvf glassfish-5.0.zip
+
+
+Домен по умолчанию, называемый «domain1», установлен и предварительно сконфигурирован.
+
+
+2. Запуск GlassFish
+=====================
+
+Утилита командной строки «asadmin» используется для управления и управления GlassFish (запуск, остановка, настройка, развертывание приложений и т. Д.).
+
+Чтобы запустить GlassFish, просто зайдите в каталог, в котором находится GlassFish, и введите:
+        On Unix: старт-домен Glassfish5 / glassfish / bin asadmin
+        В Windows: glassfish5 \ glassfish \ bin asadmin start-domain
+
+Через несколько секунд GlassFish будет готов и готов принять запросы. Домен «domain1» по умолчанию настроен на прослушивание на порту 8080. В вашем браузере перейдите по адресу http: // localhost: 8080, чтобы увидеть целевую страницу по умолчанию.
+
+Чтобы управлять GlassFish, просто зайдите в консоль веб-администрирования: http: // localhost: 4848
+
+
+3. Остановка GlassFish
+=====================
+
+Чтобы остановить GlassFish, просто выполните следующую команду:
+        On Unix: stop-domain of glassfish5 / glassfish / bin asadmin
+        В Windows: glassfish5 \ glassfish \ bin asadmin stop-domain
+
+
+4. Куда идти дальше?
+====================
+
+Откройте в своем браузере следующий локальный файл: glassfish5 / glassfish / docs / quickstart.html. Он содержит полезную информацию, такую ​​как сведения о предварительно сконфигурированном «domain1», ссылки на документацию GlassFish и т. Д.
+
+
+Обязательно также проверяйте заметки о выпуске GlassFish 5.0, поскольку они содержат важную информацию: https://javaee.github.io/glassfish/documentation
+
+Если вы новичок в Java EE, учебник Java EE (см. Ниже) - это хороший способ узнать больше. Примеры предназначены для работы с GlassFish, и это поможет вам ориентироваться.
+
+
+
+
+5. Документация
+================
+
+Документация GlassFish: https://javaee.github.io/glassfish/documentation
+
+Учебное пособие по Java EE: https://javaee.github.io/tutorial
+
+Форум GlassFish: https://javaee.groups.io/g/glassfish/
+
+
+6. Следуйте за нами
+============
+
+Обязательно следуйте @GlassFish и @Java_EE в Твиттере и прочитайте Блог Аквариума (https://blogs.oracle.com/TheAquarium), чтобы получать последние новости о GlassFish и Java EE.
+Blagodarim vas za zagruzku GlassFish Server s otkrytym iskhodnym kodom versii 5.0!
+
+Vot neskol'ko korotkikh shagov, chtoby vy nachali ...
+
+
+0. Predvaritel'noye usloviye
+===============
+
+GlassFish 5.0 trebuyet Oracle JDK 8 Update 144.
+Prover'te http://www.oracle.com/technetwork/java/javase/downloads/index.html, chtoby zagruzit' JDK.
+
+
+1. Ustanovka GlassFish
+=======================
+
+Ustanovka GlassFish - eto vopros raspakovki arkhiva GlassFish v nuzhnom kataloge. Poskol'ku vy chitayete eto, vy, veroyatno, uzhe raspakovali GlassFish. Yesli net, prosto vvedite sleduyushchuyu komandu v katalog, gde vy khotite ustanovit' GlassFish: jar xvf glassfish-5.0.zip
+
+
+Domen po umolchaniyu, nazyvayemyy «domain1», ustanovlen i predvaritel'no skonfigurirovan.
+
+
+2. Zapusk GlassFish
+=====================
+
+Utilita komandnoy stroki «asadmin» ispol'zuyetsya dlya upravleniya i upravleniya GlassFish (zapusk, ostanovka, nastroyka, razvertyvaniye prilozheniy i t. D.).
+
+Chtoby zapustit' GlassFish, prosto zaydite v katalog, v kotorom nakhoditsya GlassFish, i vvedite:
+        On Unix: start-domen Glassfish5 / glassfish / bin asadmin
+        V Windows: glassfish5 \ glassfish \ bin asadmin start-domain
+
+Cherez neskol'ko sekund GlassFish budet gotov i gotov prinyat' zaprosy. Domen «domain1» po umolchaniyu nastroyen na proslushivaniye na portu 8080. V vashem brauzere pereydite po adresu http: // localhost: 8080, chtoby uvidet' tselevuyu stranitsu po umolchaniyu.
+
+Chtoby upravlyat' GlassFish, prosto zaydite v konsol' veb-administrirovaniya: http: // localhost: 4848
+
+
+3. Ostanovka GlassFish
+=====================
+
+Chtoby ostanovit' GlassFish, prosto vypolnite sleduyushchuyu komandu:
+        On Unix: stop-domain of glassfish5 / glassfish / bin asadmin
+        V Windows: glassfish5 \ glassfish \ bin asadmin stop-domain
+
+
+4. Kuda idti dal'she?
+====================
+
+Otkroyte v svoyem brauzere sleduyushchiy lokal'nyy fayl: glassfish5 / glassfish / docs / quickstart.html. On soderzhit poleznuyu informatsiyu, takuyu ​​kak svedeniya o predvaritel'no skonfigurirovannom «domain1», ssylki na dokumentatsiyu GlassFish i t. D.
+
+
+Obyazatel'no takzhe proveryayte zametki o vypuske GlassFish 5.0, poskol'ku oni soderzhat vazhnuyu informatsiyu: https://javaee.github.io/glassfish/documentation
+
+Yesli vy novichok v Java EE, uchebnik Java EE (sm. Nizhe) - eto khoroshiy sposob uznat' bol'she. Primery prednaznacheny dlya raboty s GlassFish, i eto pomozhet vam oriyentirovat'sya.
+
+
+
+
+5. Dokumentatsiya
+================
+
+Dokumentatsiya GlassFish: https://javaee.github.io/glassfish/documentation
+
+Uchebnoye posobiye po Java EE: https://javaee.github.io/tutorial
+
+Forum GlassFish: https://javaee.groups.io/g/glassfish/
+
+
+6. Sleduyte za nami
+============
+
+Obyazatel'no sleduyte @GlassFish i @Java_EE v Tvittere i prochitayte Blog Akvariuma (https://blogs.oracle.com/TheAquarium), chtoby poluchat' posledniye novosti o GlassFish i Java EE.
+О Переводчике GoogleСообществаМобильная версия
+О GoogleПравила и принципыСправкаОтправить отзыв
+

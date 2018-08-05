@@ -1,0 +1,10 @@
+fun main(args: Array<String>) {
+
+    var name: String = "Egor"
+    var a: Int = 1
+    var b: Int = 2
+
+    println("WWWWWWWW $name")
+    println("A + B = ${a +b}")
+    print(name)
+}

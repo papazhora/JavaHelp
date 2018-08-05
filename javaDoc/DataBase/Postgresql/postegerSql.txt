@@ -1,0 +1,59 @@
+LOCALHOST
+port 5432
+postgres
+root
+-----------------------------------------
+
+String sql = "INSERT INTO address (ID, COUNTRY, CITY, STREET, POST_CODE) VALUES (?, ?, ?, ?, ?)";
+String sql = "SELECT ID, COUNTRY, CITY, STREET, POST_CODE";
+----------------------------------------------
+CREATE DATABASE "myCompany"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_United States.1252'
+    LC_CTYPE = 'English_United States.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
+	----------------------------
+	
+	CREATE TABLE PUBLIC.ADDRESS 
+(
+"ID" BIGINT NOT NULL,
+"COUNTRY" VARCHAR (255) NOT null,
+"CITY" VARCHAR (255) not null,
+"STREET" varchar(255) not null,
+"POST_CODE" VARCHAR(15) not null,
+constraint "ADDRESS_PKEY" primary key ("ID")
+)
+----------------------------------------------
+CREATE TABLE public.EMPLOYEE
+(
+  "ID" BIGINT NOT NULL ,
+  "FIRST_NAME" VARCHAR(255) NOT NULL ,
+  "LAST_NAME" VARCHAR(255) NOT NULL ,
+  "BIRTHDAY" DATE NOT NULL ,
+  "ADDRESS_ID" BIGINT NOT NULL ,
+  CONSTRAINT "EMPLOYEE_PKEY" PRIMARY KEY ("ID"),
+  CONSTRAINT "EMPLOYEE_FKEY" FOREIGN KEY ("ID") REFERENCES "address" ("ID")
+);
+------------------------------------------
+create table project
+(
+  "ID"    bigint       not null
+    constraint "PROJECT_KEY"
+    primary key,
+  "TITLE" varchar(255) not null
+);
+------------------------------------------
+create table empl_proj
+(
+  "EMPLOYEE_ID" bigint not null
+    constraint "EMPL_PROJ_EMPLOYEE_ID_fkey"
+    references employee,
+  "PROJECT_ID"  bigint not null
+    constraint "EMPL_PROJ_EMPLOYEE_ID_FKEY"
+    references project
+);
+
+	

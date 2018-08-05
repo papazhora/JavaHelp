@@ -1,0 +1,11 @@
+Дополнение: если у тебя Linux
+
+Некоторые ученики (в основном пользователи ОС Linux), ставят OpenJDK 8 вместо Oracle JDK 8. Поскольку Open JDK 8 не имеет встроенной библиотеки JavaFX, плагин JavaRush для InetlliJ IDEA не cможет работать корректно.
+
+Решение 1:
+
+Установи Oracle JDK 8 вместо OpenJDK 8
+
+Решение 2:
+
+Установи Open JavaFX командой типа: sudo apt-get install openjfx

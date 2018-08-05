@@ -1,0 +1,6 @@
+mysql-aws
+mysqlaws
+mysqlaws
+27-Papa
+mysql-aws.cj0vmandb5x4.us-east-2.rds.amazonaws.com
+3306

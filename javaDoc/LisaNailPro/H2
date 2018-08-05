@@ -1,0 +1,6 @@
+URL  jdbc:h2:tcp://localhost:9092/~/test
+host localhost
+port 9092
+user sa
+pass
+driver  org.h2.Driver

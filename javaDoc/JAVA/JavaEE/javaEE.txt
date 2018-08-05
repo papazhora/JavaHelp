@@ -1,0 +1,1 @@
+Java EE, как то: Servlets, JSP, Hibernate JSF, Spring

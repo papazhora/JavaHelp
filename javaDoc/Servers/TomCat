@@ -1,0 +1,6 @@
+
+brew install tomcat
+catalina run
+
+Using CATALINA_BASE:   /usr/local/Cellar/tomcat/9.0.10/libexec
+Using CATALINA_HOME:   /usr/local/Cellar/tomcat/9.0.10/libexec
